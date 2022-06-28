@@ -42,13 +42,14 @@ router.post('/', async (req, res) => {
     }
   */
   try {
-    const userData = await Product.create(
-      {
+    const userData = await Product.create(req.body, {
+      where: {
         product_name: "Basketball",
         price: 200.00,
         stock: 3,
         tagIds: [1, 2, 3, 4]
-      });
+      }
+    });
     res.status(200).json(userData);
   } catch (err) {
     res.status(400).json(err);
