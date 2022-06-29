@@ -2,9 +2,9 @@
 
 ## Table of Contents
 
-- [Description](#description)
-
 - [Resources](#resources)
+
+- [Description](#description)
 
 - [Installation Instructions](#installation)
 
@@ -17,15 +17,21 @@
 
 - [REPOSITORY](https://github.com/okdavekk/e-commerce-back-end)
 
-- [VIDEO LINK](https://www.awesomescreenshot.com/video/9676793)
+- [Insomnia Product CRUD Operations Video](https://www.awesomescreenshot.com/video/9715442)
+
+- [Insomnia Category CRUD Operations Video](https://www.awesomescreenshot.com/video/9715549)
+
+- [Insomnia Tag CRUD Operations Video](https://www.awesomescreenshot.com/video/9715633)
+
 
 ## Installation
-- Run npm
+- Run npm i in Develop folder
+- run mysql and `source.db/schema.sql`
+- Seed database outside of mysql command line in main of directory
+- run nodemon in terminal 
 
-- Run
 
 ## Description
-
 ### Your Task
 Internet retail, also known as **e-commerce**, is the largest sector of the electronics industry, generating an estimated $29 trillion in 2019. E-commerce platforms like Shopify and WooCommerce provide a suite of services to businesses of all sizes. Due to their prevalence, understanding the fundamental architecture of these platforms will benefit you as a full-stack web developer.
 
@@ -50,7 +56,6 @@ WHEN I enter the command to invoke the application THEN my server is started and
 WHEN I open API GET routes in Insomnia for categories, products, or tags THEN the data for each of these routes is displayed in a formatted JSON
 
 WHEN I test API POST, PUT, and DELETE routes in Insomnia THEN I am able to successfully create, update, and delete data in my database
-
 
 ### Getting Started
 This Challenge will require a video submission. Refer to the [Fullstack Blog Video Submission Guide](https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide) for additional guidance on creating a video.
@@ -184,19 +189,16 @@ After creating the models and routes, run `npm run seed` to seed data to your da
 ### Sync Sequelize to the Database on Server Start
 Create the code needed in `server.js` to sync the Sequelize models to the MySQL database on server start.
 
+
 ## Visuals
-### Mock-up
-The following animation shows the application's GET routes to return all categories, all products, and all tags being tested in Insomnia:
+### Example for Product CRUD Operations
+![Insomnia Product CRUD Operations](./Assets/product-CRUD.gif)
 
-![In Insomnia, the user tests “GET tags,” “GET Categories,” and “GET All Products.”.](./Assets/13-orm-homework-demo-01.gif)
+### Example for Category CRUD Operations
+![Insomnia Category CRUD Operations](./Assets/category-CRUD.gif)
 
-The following animation shows the application's GET routes to return a single category, a single product, and a single tag being tested in Insomnia:
+### Example for Tag CRUD Operations
+![Insomnia Tag CRUD Operations](./Assets/tag-CRUD.gif)
 
-![In Insomnia, the user tests “GET tag by id,” “GET Category by ID,” and “GET One Product.”](./Assets/13-orm-homework-demo-02.gif)
-
-The following animation shows the application's POST, PUT, and DELETE routes for categories being tested in Insomnia:
-
-![In Insomnia, the user tests “DELETE Category by ID,” “CREATE Category,” and “UPDATE Category.”](./Assets/13-orm-homework-demo-03.gif)
-
-Your walkthrough video should also show the POST, PUT, and DELETE routes for products and tags being tested in Insomnia.
-
+## Authors and Acknowledgement
+Made by myself with help from others
