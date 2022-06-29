@@ -60,12 +60,12 @@ router.put('/:id', async (req, res) => {
 router.delete('/:id', async (req, res) => {
   // delete one product by its `id` value
   try {
-    const readerData = await Reader.destroy({
+    const userData = await Product.destroy({
       where: {
         id: req.params.id,
       },
     });
-    res.status(200).json(readerData);
+    res.status(200).json(userData);
   } catch (err) {
     res.status(500).json(err);
   }
