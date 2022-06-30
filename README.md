@@ -17,11 +17,11 @@
 
 - [REPOSITORY](https://github.com/okdavekk/e-commerce-back-end)
 
-- [Insomnia Product CRUD Operations Video](https://www.awesomescreenshot.com/video/9715442)
+- [Insomnia Product CRUD Operations Video](https://www.awesomescreenshot.com/video/9715442?key=c2d0035cb648e4a1519a9949d8fa93a0)
 
-- [Insomnia Category CRUD Operations Video](https://www.awesomescreenshot.com/video/9715549)
+- [Insomnia Category CRUD Operations Video](https://www.awesomescreenshot.com/video/9715549?key=3673a4feff814abd667ff9f651e3d816)
 
-- [Insomnia Tag CRUD Operations Video](https://www.awesomescreenshot.com/video/9715633)
+- [Insomnia Tag CRUD Operations Video](https://www.awesomescreenshot.com/video/9715633?key=4e7f7e9cee95254502387bfc5d105aec)
 
 
 ## Installation
